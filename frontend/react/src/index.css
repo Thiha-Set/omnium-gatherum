@@ -4,7 +4,7 @@ body{
 
 /* @MainBody style*/
 #main-body-heading{
-    max-width: 70%;
+    max-width: 80%;
     height: 100vh;
     background-image: linear-gradient(to right, #000, #ffffff00);
 }

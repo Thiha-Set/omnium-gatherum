@@ -6,7 +6,7 @@ function App() {
   return (
     <main>
       <Header titleText={"Omnium-Gatherum"} logo="https://placehold.co/50x50"/>
-      <MainBody bgImageUrl={"./public/bgMainPageBody.png"}/>
+      <MainBody bgImageUrl={"https://images.pexels.com/photos/220413/pexels-photo-220413.jpeg?auto=compress&cs=tinysrgb&w=600"}/>
       
     </main>
   )
