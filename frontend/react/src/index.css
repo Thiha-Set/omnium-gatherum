@@ -1,0 +1,18 @@
+body{
+    background-color: #303032;
+}
+
+/* @MainBody style*/
+#main-body-heading{
+    max-width: 70%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #000, #ffffff00);
+}
+#main-body-heading h4{
+    font-size: 3rem;
+    color:#f2f2ff;
+}
+#main-body-heading p{
+    color:#c2c2cb;
+    max-width: 50%;
+}
