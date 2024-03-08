@@ -1,4 +1,6 @@
 import React from 'react'
+import Article from './Article'
+import NavigationSection from './NavigationSection'
 
 function MainBody({ bgImageUrl }) {
     return (
@@ -8,8 +10,10 @@ function MainBody({ bgImageUrl }) {
                     <h4>Lorem <br />Ipsum</h4>
                     <p className='ms-1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas architecto labore ad maxime? Deleniti nam omnis ipsa tempora, quisquam et?</p>
                 </div>
-
+                
             </div>
+            <Article/>
+            <NavigationSection/>
         </main>
     )
 }

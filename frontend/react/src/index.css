@@ -16,3 +16,27 @@ body{
     color:#c2c2cb;
     max-width: 50%;
 }
+
+/* @Article Component Style */
+div.body_article h4{
+    font-size: 1.5rem;
+}
+
+div.article-rotation-icon{
+    animation-name: rotate-icon;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+/* @Service Item Component Style */
+div.service-item{
+    background-color: #ececf2;
+}
+
+/* KEYFRAMES (FOR ANIM) */
+@keyframes rotate-icon {
+    from {transform: rotate(0);}
+    to {transform: rotate(90deg);}
+}
+
